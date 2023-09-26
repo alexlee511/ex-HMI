@@ -1,0 +1,88 @@
+.block {
+    color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: #ffffff;
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
+
+.adv-name{
+    color: #01ffff;
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+#adv-type-0 li>div {
+    display: inline-block;
+    height: 4vw;
+}
+
+#adv-type-0 .adv-item-title span {
+    font-size: 2.5vw;
+}
+
+#adv-type-0 .adv-item-title .adv-item-desc {
+    margin-left: 1vw;
+}
+
+#adv-type-1 li>div {
+    display: inline-block;
+    width: 32vw;
+    height: 4vw;
+    margin-right: 2vw;
+}
+
+#adv-type-1 input[type=text] {
+    width: 20vw;
+    margin-right: 2vw;
+}
+
+#adv-type-1 .delete-button {
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+}
+
+.adv-options {
+    float: right;
+}
+
+.adv-options input[type=radio] {
+    width: 3vmin;
+    height: 3vmin;
+}
+
+.adv-options span {
+    margin-left: 0.4vw;
+    margin-right: 0.4vw;
+}
+
+.adv-options label {
+    margin-left: 0.4vw;
+}
+
+.adv-options select {
+    width: 10vw;
+}
+
+.adv-options input[type=text] {
+    width: 10vw;
+}
+
+.adv-list-header span {
+    display: block;
+}
+
+.adv-item-desc {
+    font-size: 1.5vw;
+    color: yellow;
+}

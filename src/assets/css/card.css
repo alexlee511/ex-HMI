@@ -1,0 +1,294 @@
+.swiper {
+  height: 300px;
+  width: 100%;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: font-size-huge * 2;
+  /* background-color: white; */
+}
+
+.OVERVIEW_CONTENT_NAV {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  height: 10vh;
+  justify-content: center;
+  color: #ffffff;
+
+  font-weight: bold;
+}
+
+.content__devcard {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  /* padding-bottom: 15px; */
+  /* padding-left: 15px; */
+}
+
+.content__devcard--empty {
+  opacity: 0.4;
+}
+
+.content__devcard__view {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(rgba(33, 96, 184, 0.8), rgba(1, 255, 255, 0.8));
+  /* width: 90%;
+  height: 85%; */
+  overflow: hidden;
+  border-radius: 10px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-image: linear-gradient(
+    to left,
+    rgba(33, 96, 184, 0),
+    #01ffff,
+    rgba(33, 96, 184, 0)
+  );
+  border-image-slice: 1;
+  border-left-style: none;
+  border-right-style: none;
+}
+.content_view {
+  background: linear-gradient(rgba(33, 96, 184, 0.8), rgba(1, 255, 255, 0.8));
+  /* width: 90%;
+  height: 85%; */
+  overflow: hidden;
+  border-radius: 10px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-image: linear-gradient(
+    to left,
+    rgba(33, 96, 184, 0),
+    #01ffff,
+    rgba(33, 96, 184, 0)
+  );
+  border-image-slice: 1;
+  border-left-style: none;
+  border-right-style: none;
+}
+
+.devcard__devname {
+  font-size: 2.2vmin;
+}
+
+.devcard__devattr__carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 22vw;
+  height: 100%;
+}
+
+.devcard__devslaveid,
+.devcard__devslaveid--right,
+.devcard__devslaveid--left {
+  width: 90%;
+  font-size: 1.5vmin;
+}
+
+.devcard__devslaveid--right {
+  text-align: right;
+  position: absolute;
+  bottom: 25px;
+}
+
+.devcard__devslaveid--left {
+  text-align: left;
+}
+
+.devcard__toolbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 90%;
+}
+
+.devcard__toolicon {
+  height: 5.5vh;
+  z-index: 1;
+  margin: 1vh;
+}
+
+.devcard__controlbar {
+  display: flex;
+  align-items: center;
+  height: 23.5vh;
+}
+
+.devcard__controlicon--do {
+  height: 20vh;
+}
+
+.devcard__controlicon--di {
+  height: 8vmin;
+}
+
+.content__pagenav {
+  display: flex;
+  width: 40vw;
+  z-index: 1;
+}
+
+
+.my-bullet {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #000;
+  opacity: 0.2;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.my-bullet-active {
+  opacity: 1;
+  background: yellow;
+}
+
+.swiper-pagination-bullets {
+  bottom: 5px !important;
+}
+
+.slave {
+  font-size: 1.5vmin;
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  white-space:nowrap;
+}
+
+/*卡片內swiper的格式*/
+/*
+.incardflex {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  margin-top: 5px;
+}
+.incardprop {
+  flex: 1;
+}
+.devcard___devtype_icon_view {
+  position: absolute;
+  bottom: 2vh;
+  left: 3vw;
+  opacity: 0.8;
+}
+
+.devcard___devtype_icon {
+  height: 5vh;
+}
+
+.devcard__irc__basic_view {
+  height: 6vh;
+  width: 90%;
+  display: flex;
+  z-index: 1;
+}
+.devcard__irc__basic_view_v2 {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.devcard__irc__temp_view {
+  height: 6vh;
+  width: 8vw;
+  background-color: #494949;
+  border-radius: 1vh;
+  margin: 0vw 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+}
+
+.irc_temp_control_icon {
+  height: 4vh;
+}
+
+.devcard__irc__modebar {
+  display: flex;
+  width: 90%;
+  height: 6vh;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+.devcard__irc__modebar_v2 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.devcard__irc__modebar__icon {
+  width: 5.5vh;
+}
+
+.devcard_attrval_textfill {
+  height: 10vh;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.devcard__devattrvalue {
+  color: #ffff33;
+  display: flex;
+  align-items: center;
+}
+.devcard__devattrname {
+  width: 90%;
+  height: 2.5vh;
+  text-align: left;
+  color: #c9c9c9;
+  font-size: 2vh;
+}
+.devcard__devattrunit {
+  height: 2.5vh;
+  text-align: right;
+  color: #c9c9c9;
+  font-size: 2vh;
+}
+.irc-button {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;
+  /* filter:grayscale(1); 
+  /* background: #000;
+}
+.irc-button img {
+  width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+.card-tools {
+  width: 90%;
+  display: flex;
+}
+
+.devcard__controlbar {
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 100%;
+}
+
+*/

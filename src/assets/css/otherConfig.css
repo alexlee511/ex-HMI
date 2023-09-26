@@ -1,0 +1,41 @@
+.inner-content {
+  width: 90%;
+  margin: auto;
+}
+.view {
+  color: #ffffff;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 2.5vw;
+}
+select {
+  background: linear-gradient(rgba(1, 255, 255, 0.8), rgba(33, 96, 184, 0.8));
+  background-color: rgba(33, 96, 184, 0.8);
+  border-width: 0px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 2px;
+}
+input {
+  background-color: #9bebff;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 2px;
+  border-width: 0px;
+}
+input[type="checkbox"] {
+  width: 4vmin;
+  height: 4vmin;
+}
+.devicelist_view__title_item {
+  display: flex;
+  height: 15vh;
+  align-items: center;
+  color: #01ffff;
+  font-size: 2.5vw;
+}
+.center {
+  justify-content: center;
+  margin-bottom: 4vw;
+}

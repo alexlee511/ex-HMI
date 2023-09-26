@@ -1,0 +1,121 @@
+/* 最上層的main */
+.main{
+    display: flex;
+    position:relative;
+    text-align:center;
+    align-items: center;
+}
+/* 子div的外框 */
+.slaveM{
+    position:absolute;
+    /*white-space:nowrap;*/
+}
+/* 子div */
+.slaveL{
+    position:absolute;
+    text-align:left;
+    font-weight: bold;
+    
+    font-family: Microsoft JhengHei;
+    /*white-space:nowrap;*/
+}
+.slaveC{
+    position:absolute;
+    text-align:center;
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+    /*white-space:nowrap;*/
+}
+.slaveR{
+    position:absolute;
+    text-align:right;
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+    /*white-space:nowrap;*/
+}
+/*  字體大小 (px)*/
+._70{
+    font-size:6.45vmin;
+}
+._60{
+    font-size:5.55vmin;
+}
+._48{
+    font-size:4.44vmin
+}
+._40{
+    font-size:3.703vmin
+}
+._36{
+    font-size:3.333vmin;
+}
+._32{
+    font-size:2.962vmin;
+}             
+._28{         
+    font-size:2.592vmin
+}             
+._24{         
+    font-size:2.222vmin
+}             
+._20{         
+    font-size:1.851vmin
+}
+._18{ 
+    font-size:1.63vmin
+}
+._16{
+    font-size:1.481vmin
+}
+
+/*滾動條*/
+.overFlowY{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.overFlowY::-webkit-scrollbar {
+  width  : 0.5vw;
+  height : 1vh;
+}
+
+.overFlowY::-webkit-scrollbar-thumb {
+  background-color: #8888FF !important;
+  
+}
+.overFlowY::-webkit-scrollbar-track {
+  background: #4285f4 !important;
+}
+.overFlowX{
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.overFlowX::-webkit-scrollbar {
+    display: none;
+}
+/**//**//**//**//**//**//**//**//**//***//****/
+.disappearBar::-webkit-outer-spin-button, .disappearBar::-webkit-inner-spin-button{
+
+    -webkit-appearance: none;
+    margin: 0;
+    
+}
+.divOverflow{
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+
+.text_center{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textOverflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* display: -webkit-box; */
+}

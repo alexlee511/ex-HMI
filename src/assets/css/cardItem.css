@@ -1,0 +1,90 @@
+.main{
+    position:relative;
+    text-align:center;
+}
+.slaveM{
+    position:absolute;
+}
+.slaveL{
+    position:absolute;
+    text-align:left;
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+}
+.slaveC{
+    position:absolute;
+    text-align:center;
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+}
+.slaveR{
+    position:absolute;
+    text-align:right;
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+}
+.title{
+    color: #01ffff;
+}
+.titlebrg{
+    background-color: #ffb297;
+    border-radius: 6px;
+}
+.textbrg{
+    background-color: #fff;
+    border-radius: 20px;
+}
+.textbrg2{
+    background-color: #e1ffff;
+    box-shadow: 0 10px 30px 0 rgba(91, 197, 183, 0.5);
+    border-radius: 20px;
+}
+.textbrg3{
+    background-color: #129a9a;
+    box-shadow: 0 10px 30px 0 rgba(19, 151, 151, 0.49);
+    border-radius: 20px;
+}
+.text{
+    color: #ffff33;
+}
+.c1{
+    color: #4f8e8e;
+    
+}
+.c2{
+    color: #a57013;  
+}
+.c3{
+    color: #ffffff;  
+}
+.unit{
+    color: #c9c9c9;
+    
+}
+._60{
+    font-size:5.55vmin;
+}
+._48{
+    font-size:4.44vmin
+}
+._40{
+    font-size:3.703vmin
+}
+._36{
+    font-size:3.333vmin;
+}
+._32{
+    font-size:2.962vmin;
+}             
+._28{         
+    font-size:2.592vmin
+}             
+._24{         
+    font-size:2.222vmin
+}             
+._20{         
+    font-size:1.851vmin
+}
+._16{
+    font-size:1.481vmin
+}

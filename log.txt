@@ -1,0 +1,2 @@
+Message: build completed successfully.
+Message: move vue_file:HMI-WEB/dist to www/hmi
